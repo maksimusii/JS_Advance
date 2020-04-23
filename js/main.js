@@ -16,16 +16,15 @@ const renderProduct = (title='New_prod', price=9999) => {
 };
 
 const renderProducts = (list) => {
-  const productList = list.map((good) => {
-    return renderProduct(good.title, good.price);
-  });
-  
-  //  3. Сейчас после каждого товара на странице выводится запятая. Из-за чего это происходит? - Это происходит из-за того что мы выводим весь массив элементов и массив включает разделители запятые после каждого элемента 
-  // Как это исправить ? - Это можно исправить сборкой строки из элементов массива. 
 
-  for (let i = 0; i < productList.length; i++) {
-    document.querySelector('.products').innerHTML += productList[i];
-  }
+  const productList = [];
+  
+  list.forEach(good => {
+    productList.push(renderProduct(good.title, good.price));
+    //  3. Сейчас после каждого товара на странице выводится запятая. Из-за чего это происходит? - Это происходит из-за того что мы выводим весь массив элементов и массив включает разделители запятые после каждого элемента 
+    // Как это исправить ? - Это можно исправить сборкой строки из элементов массива.
+    document.querySelector('.products').innerHTML += productList[good.id-1];
+  });
   
 };
 
