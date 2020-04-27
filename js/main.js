@@ -5,6 +5,11 @@ class ProductList {
     this.allProducts = [];
     this._fetchProducts();
     this._render();
+    
+    // 2. Добавьте для ProductsList метод, определяющий суммарную стоимость всех товаров.
+    this.allPriceSum = 0;
+    this._allProductsSum();
+
   }
 
   _fetchProducts() {
@@ -25,6 +30,14 @@ class ProductList {
       block.insertAdjacentHTML('beforeend', productObject.render());
     }
   }
+
+  // Метод, определяющий суммарную стоимость всех товаров
+  _allProductsSum() {
+    for (let i = 0; i < this.allProducts.length; i++){
+      this.allPriceSum += Number(this.allProducts[i].price);
+    }
+    console.log(this.allPriceSum);
+}
 }
 
 class ProductItem {
@@ -45,10 +58,42 @@ class ProductItem {
                 </div>
             </div>`;
   }
+
 }
 new ProductList();
 
 
+// 1. Добавьте пустые классы для корзины товаров и элемента корзины товаров. Продумайте, какие методы понадобятся для работы с этими сущностями.
+class ProductCart {
+  constructor() {
+
+  }
+  addProductToBacket() {
+    // Метод добавление продукта в корзину
+  }
+
+  removeProductFromBacket() {
+    // Метод удаление продукта из корзины
+  }
+
+  renderProductInBasket() { 
+    // Метод рендеринга продукта в корзине
+  }
+  
+  getTotalSumPriceProductInBasket () {
+  // Метод получения общей стоимости продуктов в корзине
+  }
+
+  renderetTotalSumPriceProductInBasket() { 
+    // Метод рендеринга общей стоимости продуктов в корзине
+  }
+}
+
+class ProductCartItem {
+  constructor() {
+
+  }
+}
 
 // const products = [
 //   {id: 1, title: 'Notebook', price: 20000},
