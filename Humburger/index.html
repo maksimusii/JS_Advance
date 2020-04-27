@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Humburger-shop</div>
+    </header>
+    <main>
+        Состав гамбургера(для того чтобы удалить ингредиент нажми на него):
+        <div class="humburgerIngredient">
+
+        </div>
+        <div id="calories">Калорийность продукта: 0 ккалорий</div>
+        <div id="price">Стоимость продукта: 0 ₽</div>
+        <div class="sizeLegend"> Выберете размер гамбургера(выбор размера срывается после выбора):</div> 
+        <div class="humburgers">
+            <div class="humburger ingredient" data-type="small-humburger" data-size="small" data-price="50" data-calories="20">Small<img src="https://placehold.it/150x100" alt=""></div>
+            <div class="humburger ingredient" data-type="big-humburger" data-size="big" data-price="100" data-calories="40">Big<img src="https://placehold.it/150x100" alt=""></div>
+        </div>
+        <div class="ingredientLegend hidden">Выберете ингридиенты гамбургера:</div> 
+        <div class="ingredients hidden">
+            <div class="ingredient" data-type="cheese" data-price="10" data-calories="20">Cheese<img src="https://placehold.it/100x75" alt=""></div>
+            <div class="ingredient" data-type="salad" data-price="20" data-calories="5">Salad<img src="https://placehold.it/100x75" alt=""></div>
+            <div class="ingredient" data-type="potato" data-price="15" data-calories="10">Potato<img src="https://placehold.it/100x75" alt=""></div>
+        </div>
+        <div class="ingredientLegend hidden">Выберете дополнительные ингридиенты гамбургера:</div>
+        <div class="ingredients hidden">
+            <div class="ingredient" data-type="spices" data-price="15" data-calories="0">Spices<img src="https://placehold.it/100x75" alt=""></div>
+            <div class="ingredient" data-type="sauce" data-price="20" data-calories="5">Sauce<img src="https://placehold.it/100x75" alt=""></div>
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
