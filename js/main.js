@@ -68,14 +68,6 @@ class ProductCart {
   constructor() {
 
   }
-  addProductToBacket() {
-    // Метод добавление продукта в корзину
-  }
-
-  removeProductFromBacket() {
-    // Метод удаление продукта из корзины
-  }
-
   renderProductInBasket() { 
     // Метод рендеринга продукта в корзине
   }
@@ -93,6 +85,16 @@ class ProductCartItem {
   constructor() {
 
   }
+
+  addProductToBacket() {
+    // Метод добавление продукта в корзину
+  }
+
+  removeProductFromBacket() {
+    // Метод удаление продукта из корзины
+  }
+
+ 
 }
 
 // const products = [
