@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    
+<main>
+    <p>3. *Создать форму обратной связи с полями: Имя, Телефон, E-mail, текст, кнопка Отправить.</p><br>
+    <form>
+        <label for="name">Имя:</label><br>
+        <input class="value" type="text" id="name" name="name" placeholder="Ваше Имя">
+        <div class="errorMessage" id="name"></div><br>
+        <label for="phone">Телефон:</label><br>
+        <input class="value" type="text" id="phone" name="phone" placeholder="Ваш телефон" >
+        <div class="errorMessage" id="phone"></div><br>
+        <label for="email">E-mail:</label><br>
+        <input class="value" type="text" id="email" name="email" placeholder="Ваш email">
+        <div class="errorMessage" id="email"></div><br>
+        <label for="text">Текст:</label><br>
+        <input class="value" type="text" id="text" name="text" placeholder="Ваш текст"> 
+        <div class="errorMessage" id="email"></div><br>
+        <input class="submitButton" type="submit" value="Отправить">
+      </form>
+</main>
+
+<script src="js/validForm.js"></script>
+</body>
+</html>
