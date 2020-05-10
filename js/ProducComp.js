@@ -5,12 +5,12 @@ Vue.component('products', {
             products: [],
             filtered: [],
             imgCatalog: 'https://placehold.it/200x150',
+            filterAPI: this.$parent.$refs.filterProduct,
         }
     },
     methods: {
         filter() {
-            console.log(this.$parent.userSearch);
-            let regexp = new RegExp(this.$parent.userSearch, 'i');
+            let regexp = new RegExp(this.filterAPI.userSearch, 'i');
             this.filtered = this.products.filter(el => regexp.test(el.product_name));
         }
     },

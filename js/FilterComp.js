@@ -1,11 +1,8 @@
-Vue.component('filter', {
+Vue.component('filterProduct', {
     data() {
         return {
             userSearch: '',
         }
-    },
-    mounted() {
-        console.log(this);
     },
     template: `
         <form action="#" class="search-form" @submit.prevent="$root.$refs.products.filter">
