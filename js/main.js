@@ -9,9 +9,6 @@ const app = new Vue({
         getJson(url){
             return fetch(url)
                 .then((result) => {
-                    // if (!result.ok) {
-                    //     this.$root.$refs.error.strError += ` Не удалось выполнит запрос ${result.url} к серверу. Ошибка:  ${result.statusText}${result.status}`;
-                    // }
                     return result.json();
                 })
                 .catch(error => {
