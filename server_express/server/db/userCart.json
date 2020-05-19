@@ -1,0 +1,41 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 2,
+            "id_product": 101,
+            "product_img": "Product_2.png",
+            "product_name": "MANGO PEOPLE T-SHIRT",
+            "price": 300
+        },
+        {
+            "quantity": 3,
+            "id_product": 102,
+            "product_img": "Product_3.png",
+            "product_name": "MANGO PEOPLE T-SHIRT",
+            "price": 456
+        },
+        {
+            "quantity": 3,
+            "id_product": 133,
+            "product_img": "Product_4.png",
+            "product_name": "MANGO PEOPLE T-SHIRT",
+            "price": 100
+        },
+        {
+            "quantity": 1,
+            "id_product": 145,
+            "product_img": "Product_7.png",
+            "product_name": "MANGO PEOPLE T-SHIRT",
+            "price": 456
+        },
+        {
+            "quantity": 1,
+            "id_product": 135,
+            "product_img": "Product_6.png",
+            "product_name": "MANGO PEOPLE T-SHIRT",
+            "price": 300
+        }
+    ]
+}

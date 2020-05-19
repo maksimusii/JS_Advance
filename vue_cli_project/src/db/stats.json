@@ -1,0 +1,106 @@
+[
+    {
+        "time": "14 May 2020, 7:47:05 pm",
+        "action": "remove"
+    },
+    {
+        "time": "14 May 2020, 7:47:13 pm",
+        "action": "change"
+    },
+    {
+        "time": "14 May 2020, 7:47:24 pm",
+        "action": "remove"
+    },
+    {
+        "time": "14 May 2020, 7:49:15 pm",
+        "prod_name": "Ноутбук",
+        "action": "add"
+    },
+    {
+        "time": "14 May 2020, 7:49:17 pm",
+        "prod_name": "Мышка",
+        "action": "add"
+    },
+    {
+        "time": "14 May 2020, 8:03:31 pm",
+        "action": "remove"
+    },
+    {
+        "time": "14 May 2020, 8:03:31 pm",
+        "action": "remove"
+    },
+    {
+        "time": "14 May 2020, 8:03:51 pm",
+        "prod_name": "Ноутбук",
+        "action": "add"
+    },
+    {
+        "time": "14 May 2020, 8:03:52 pm",
+        "action": "change"
+    },
+    {
+        "time": "14 May 2020, 8:03:55 pm",
+        "action": "change"
+    },
+    {
+        "time": "14 May 2020, 8:03:55 pm",
+        "prod_name": "Gamepad",
+        "action": "add"
+    },
+    {
+        "time": "14 May 2020, 8:03:56 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "14 May 2020, 8:03:56 pm",
+        "action": "change"
+    },
+    {
+        "time": "14 May 2020, 8:03:58 pm",
+        "action": "change"
+    },
+    {
+        "time": "14 May 2020, 8:03:59 pm",
+        "action": "change"
+    },
+    {
+        "time": "14 May 2020, 8:03:59 pm",
+        "action": "remove"
+    },
+    {
+        "time": "14 May 2020, 8:04:00 pm",
+        "action": "change"
+    },
+    {
+        "time": "14 May 2020, 8:04:01 pm",
+        "action": "remove"
+    },
+    {
+        "time": "14 May 2020, 8:20:37 pm",
+        "action": "remove"
+    },
+    {
+        "time": "14 May 2020, 8:21:34 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "14 May 2020, 8:22:51 pm",
+        "action": "remove"
+    },
+    {
+        "time": "14 May 2020, 8:25:30 pm",
+        "prod_name": "Gamepad",
+        "action": "add"
+    },
+    {
+        "time": "14 May 2020, 8:25:32 pm",
+        "action": "remove"
+    },
+    {
+        "time": "14 May 2020, 8:26:38 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    }
+]
