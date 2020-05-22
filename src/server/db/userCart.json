@@ -1,0 +1,16 @@
+{
+    "amount": 1800,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 8,
+            "id_product": 101,
+            "product_img": "Product_2.png",
+            "product_name": "MANGO PEOPLE T-SHIRT",
+            "price": 300
+        },
+        {
+            "quantity": 2
+        }
+    ]
+}

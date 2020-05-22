@@ -1,0 +1,140 @@
+[
+  {
+    "id_product": 100,
+    "product_img": "Product_1.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 520
+  },
+  {
+    "id_product": 101,
+    "product_img": "Product_2.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 300
+  },
+  {
+    "id_product": 102,
+    "product_img": "Product_3.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 456
+  },
+  {
+    "id_product": 133,
+    "product_img": "Product_4.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 100
+  },
+  {
+    "id_product": 134,
+    "product_img": "Product_5.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 520
+  },
+  {
+    "id_product": 135,
+    "product_img": "Product_6.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 300
+  },
+  {
+    "id_product": 145,
+    "product_img": "Product_7.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 456
+  },
+  {
+    "id_product": 155,
+    "product_img": "Product_8.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 1000
+  },
+  {
+    "id_product": 165,
+    "product_img": "Product_9.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 1000
+  },
+  {
+    "id_product": 146,
+    "product_img": "Product_10.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 134
+  },
+  {
+    "id_product": 114,
+    "product_img": "Product_11.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 356
+  },
+  {
+    "id_product": 115,
+    "product_img": "Product_12.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 478
+  },
+  {
+    "id_product": 137,
+    "product_img": "Product_13.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 135
+  },
+  {
+    "id_product": 139,
+    "product_img": "Product_14.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 589
+  },
+  {
+    "id_product": 149,
+    "product_img": "Product_15.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 578
+  },
+  {
+    "id_product": 167,
+    "product_img": "Product_16.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 123
+  },
+  {
+    "id_product": 198,
+    "product_img": "Product_17.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 478
+  },
+  {
+    "id_product": 199,
+    "product_img": "Product_18.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 676
+  },
+  {
+    "id_product": 234,
+    "product_img": "Product_19.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 632
+  },
+  {
+    "id_product": 303,
+    "product_img": "Product_20.png",
+    "product_name": "BLAZE LEGGINGS",
+    "price": 678
+  },
+  {
+    "id_product": 304,
+    "product_img": "Product_21.png",
+    "product_name": "ALEXA SWEATER",
+    "price": 467
+  },
+  {
+    "id_product": 305,
+    "product_img": "Product_22.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 245
+  },
+  {
+    "id_product": 307,
+    "product_img": "Product_23.png",
+    "product_name": "MANGO PEOPLE T-SHIRT",
+    "price": 876
+  }
+]
